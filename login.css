@@ -1,0 +1,88 @@
+body {
+    background: rgb(199, 255, 218);
+    background: linear-gradient(124deg, rgba(199, 255, 218, 1) 0%, rgba(82, 65, 200, 1) 82%, rgba(86, 21, 144, 1) 100%);
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+
+.container {
+    text-align: center;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    color: #666666;
+}
+
+
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-contain {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+   
+}
+
+button {
+    width: 200px;
+    /* Adjust width as needed */
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 13px 20px;
+    margin: 10px 0;
+    /* Adjust margin as needed */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button+button {
+    margin-top: 50px;
+    /* Adjust the margin between buttons */
+}
